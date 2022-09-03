@@ -10,7 +10,7 @@ h1 {
     color: orangered;
 }
 
-section {
+.Flexible {
     display: flex;
     margin-bottom: 100px;
 }
@@ -31,4 +31,25 @@ section {
     color: black;
     font-weight: 700;
     border-radius: 5px;
+}
+
+.box {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px gray;
+}
+
+#Hero {
+    border-left: 7px solid tomato;
+}
+
+#chain {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
